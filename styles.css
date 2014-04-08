@@ -98,6 +98,10 @@ li:nth-child(2), li:nth-child(3) {
   margin-top: 10px;
 }
 
+.read_more a:hover{
+  color: #238E69;
+}
+
 nav {
   width: 25%;
   margin-left: 50px;
