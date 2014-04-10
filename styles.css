@@ -112,8 +112,9 @@ nav {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-li.current {
-  color: white;
+
+li.active a {
+color: #A4C1B7;
 }
 
 ul#sub_menu {
