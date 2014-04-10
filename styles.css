@@ -98,7 +98,8 @@ li:nth-child(2), li:nth-child(3) {
   margin-top: 10px;
 }
 
-.read_more a:hover{
+a.read_more:hover{
+  color: #000;
   text-decoration: underline;
 }
 
@@ -110,6 +111,22 @@ nav {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+li.current {
+  color: white;
+}
+
+ul#sub_menu {
+    display: none;
+    position: absolute;
+}
+
+ul#outer_nav li.first:hover ul#sub_menu {
+    display: block;
+    margin-left: 80px;
+    margin-top: -20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* Header area */
